@@ -6,6 +6,7 @@ import be.intecbrussel.springWebApp.domein.Publisher;
 import be.intecbrussel.springWebApp.repositories.AuthorRepository;
 import be.intecbrussel.springWebApp.repositories.BookRepository;
 import be.intecbrussel.springWebApp.repositories.PublisherRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
